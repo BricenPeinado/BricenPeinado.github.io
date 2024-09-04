@@ -86,7 +86,6 @@ nav ul li a:hover {
 .about,
 .projects,
 .skills,
-.testimonials,
 .contact {
     padding: 50px 20px;
     text-align: center;
@@ -97,7 +96,6 @@ nav ul li a:hover {
 .about h2,
 .projects h2,
 .skills h2,
-.testimonials h2,
 .contact h2 {
     font-family: "Playfair Display", serif;
     color: #e63946;
@@ -107,28 +105,8 @@ nav ul li a:hover {
 
 .project-grid,
 .skills-list,
-.testimonial-grid {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
 .project-card,
-.testimonial-card {
-    background-color: #222;
-    border: 1px solid #333;
-    padding: 20px;
-    width: 300px;
-    box-shadow: 5px 5px 15px #000;
-    transition: transform 0.3s ease;
-}
-
 .project-card:hover,
-.testimonial-card:hover {
-    transform: scale(1.05);
-}
-
 .project-card img {
     width: 100%;
     height: 200px;
@@ -219,28 +197,4 @@ footer p {
 
 .social-links a:hover {
     color: #e63946;
-}
-
-.testimonial-grid {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
-.testimonial-card {
-    background-color: #222;
-    border: 1px solid #333;
-    padding: 20px;
-    width: 300px;
-    box-shadow: 5px 5px 15px #000;
-    transition: transform 0.3s ease;
-}
-
-.testimonial-card p {
-    font-size: 1.2em;
-}
-
-.testimonial-card:hover {
-    transform: scale(1.05);
 }
